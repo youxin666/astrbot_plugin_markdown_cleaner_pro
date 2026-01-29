@@ -1,5 +1,7 @@
 # 导入必要模块（包含yaml和os，用于读取配置文件）
-from astrbot import plugin
+# 替换原有的 from astrbot import plugin
+from astrbot.core.plugin import Plugin  # 适配新版接口
+from astrbot import hook  # 若hook装饰器路径也变更，同步调整
 from astrbot.message import Message
 import re
 import yaml
