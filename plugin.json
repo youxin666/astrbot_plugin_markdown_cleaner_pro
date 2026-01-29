@@ -1,0 +1,12 @@
+{
+  "id": "markdown_cleaner_pro",
+  "name": "强化版Markdown清理插件",
+  "version": "1.0.0",
+  "description": "彻底移除回复中的**、##等Markdown格式",
+  "author": "youxin666",
+  "homepage": "https://github.com/youxin666/astrbot_plugin_markdown_cleaner_pro",
+  "license": "MIT",
+  "requirements": [],
+  "config": [],
+  "entry": "__init__.py"
+}
