@@ -1,5 +1,5 @@
-# Markdown过滤规则开关
-remove_bold: true    # 移除**
-remove_heading: true # 移除##
-remove_list: true    # 移除列表符号
-remove_quote: true   # 移除引用符号
+# Markdown清理规则开关（true=开启，false=关闭）
+remove_bold: true    # 移除**加粗符号
+remove_heading: true # 移除##标题符号
+remove_list: true    # 移除* / - / + 列表符号
+remove_quote: true   # 移除> 引用符号
